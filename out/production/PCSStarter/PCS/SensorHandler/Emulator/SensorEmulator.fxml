@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="347.0" prefWidth="417.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PCS.SensorHandler.Emulator.SensorEmulatorController">
+   <children>
+      <Button fx:id="autoPollButton" layoutX="292.0" layoutY="300.0" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="25.0" prefWidth="101.0" text="Auto Poll: On" textAlignment="CENTER" />
+      <Button layoutX="158.0" layoutY="300.0" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="25.0" prefWidth="101.0" text="Poll ACK" textAlignment="CENTER" />
+      <Button alignment="TOP_CENTER" layoutX="24.0" layoutY="24.0" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="25.0" prefWidth="369.0" text="Sensor Detected" />
+      <TextArea fx:id="sensorTextArea" editable="false" layoutX="24.0" layoutY="63.0" prefHeight="221.0" prefWidth="369.0" />
+      <Button layoutX="24.0" layoutY="300.0" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="25.0" prefWidth="101.0" text="Poll Request" textAlignment="CENTER" />
+   </children>
+</AnchorPane>

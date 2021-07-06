@@ -1,0 +1,36 @@
+200416-13:50:07 [INFO] -- 
+200416-13:50:07 [INFO] -- 
+200416-13:50:07 [INFO] -- ============================================================
+200416-13:50:07 [INFO] -- PCSStarter: Application Starting...
+200416-13:50:07 [FINE] -- PCSStarter: registering timer
+200416-13:50:07 [FINE] -- timer: created!
+200416-13:50:07 [FINE] -- PCSStarter: registering PCSCore
+200416-13:50:07 [FINE] -- PCSCore: created!
+200416-13:50:07 [FINE] -- PCSStarter: registering GateHandler
+200416-13:50:07 [FINE] -- GateHandler: created!
+200416-13:50:07 [FINE] -- PCSStarter: registering VacancyDispHandler
+200416-13:50:07 [FINE] -- VacancyDispHandler: created!
+200416-13:50:07 [FINE] -- PCSStarter: registering SensorHandler(Up)Lv0
+200416-13:50:07 [FINE] -- SensorHandler(Up)Lv0: created!
+200416-13:50:07 [FINE] -- PCSStarter: registering SensorHandler(Down)Lv0
+200416-13:50:07 [FINE] -- SensorHandler(Down)Lv0: created!
+200416-13:50:07 [FINE] -- PCSStarter: registering SensorHandler(Up)Lv1
+200416-13:50:07 [FINE] -- SensorHandler(Up)Lv1: created!
+200416-13:50:07 [FINE] -- PCSStarter: registering SensorHandler(Down)Lv1
+200416-13:50:07 [FINE] -- SensorHandler(Down)Lv1: created!
+200416-13:50:07 [INFO] -- timer: starting...
+200416-13:50:07 [INFO] -- GateHandler: starting...
+200416-13:50:07 [INFO] -- SensorHandler(Up)Lv0: starting...
+200416-13:50:07 [INFO] -- SensorHandler(Down)Lv0: starting...
+200416-13:50:07 [INFO] -- SensorHandler(Up)Lv1: starting...
+200416-13:50:07 [INFO] -- VacancyDispHandler: starting...
+200416-13:50:07 [INFO] -- SensorHandler(Down)Lv1: starting...
+200416-13:50:07 [INFO] -- PCSCore: starting...
+200416-13:50:12 [FINE] -- PCSCore: message received: [Timer (TimesUp) -- TimesUp 00002 0].
+200416-13:50:12 [INFO] -- ------------------------------------------------------------
+200416-13:50:12 [INFO] -- PCSCore: Open the gate now (for demo only!!!)
+200416-13:50:12 [FINE] -- GateHandler: message received: [PCSCore (GateOpenRequest) -- ].
+200416-13:50:12 [INFO] -- GateHandler: gate open request received
+200416-13:50:12 [INFO] -- GateHandler: send signal to open the gate now.
+200416-13:50:12 [INFO] -- GateHandler: sending gate open signal to hardware.
+200416-13:50:12 [FINE] -- GateHandler: gate status change: GateClosed --> GateOpening

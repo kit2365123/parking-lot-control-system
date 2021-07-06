@@ -1,0 +1,1101 @@
+200416-21:55:27 [INFO] -- 
+200416-21:55:27 [INFO] -- 
+200416-21:55:27 [INFO] -- ============================================================
+200416-21:55:27 [INFO] -- PCSStarter: Application Starting...
+200416-21:55:27 [FINE] -- PCSStarter: registering timer
+200416-21:55:27 [FINE] -- timer: created!
+200416-21:55:27 [FINE] -- PCSStarter: registering PCSCore
+200416-21:55:27 [FINE] -- PCSCore: created!
+200416-21:55:27 [FINE] -- PCSStarter: registering GateHandler
+200416-21:55:27 [FINE] -- GateHandler: created!
+200416-21:55:27 [FINE] -- PCSStarter: registering VacancyDispHandler
+200416-21:55:27 [FINE] -- VacancyDispHandler: created!
+200416-21:55:27 [FINE] -- PCSStarter: registering SensorHandler(Up)Lv0
+200416-21:55:27 [FINE] -- SensorHandler(Up)Lv0: created!
+200416-21:55:27 [FINE] -- PCSStarter: registering SensorHandler(Down)Lv0
+200416-21:55:27 [FINE] -- SensorHandler(Down)Lv0: created!
+200416-21:55:27 [FINE] -- PCSStarter: registering SensorHandler(Up)Lv1
+200416-21:55:27 [FINE] -- SensorHandler(Up)Lv1: created!
+200416-21:55:27 [FINE] -- PCSStarter: registering SensorHandler(Down)Lv1
+200416-21:55:27 [FINE] -- SensorHandler(Down)Lv1: created!
+200416-21:55:28 [INFO] -- timer: starting...
+200416-21:55:28 [INFO] -- GateHandler: starting...
+200416-21:55:28 [INFO] -- VacancyDispHandler: starting...
+200416-21:55:28 [INFO] -- SensorHandler(Up)Lv0: starting...
+200416-21:55:28 [INFO] -- SensorHandler(Down)Lv0: starting...
+200416-21:55:28 [INFO] -- PCSCore: starting...
+200416-21:55:28 [INFO] -- SensorHandler(Up)Lv1: starting...
+200416-21:55:28 [INFO] -- SensorHandler(Down)Lv1: starting...
+200416-21:55:33 [FINE] -- PCSCore: message received: [Timer (TimesUp) -- TimesUp 00001 0].
+200416-21:55:33 [INFO] -- ------------------------------------------------------------
+200416-21:55:33 [INFO] -- Poll: TimesUp 00001 0
+200416-21:55:33 [FINE] -- SensorHandler(Up)Lv1: message received: [PCSCore (Poll) -- ].
+200416-21:55:33 [FINE] -- SensorHandler(Down)Lv1: message received: [PCSCore (Poll) -- ].
+200416-21:55:33 [FINE] -- GateHandler: message received: [PCSCore (Poll) -- ].
+200416-21:55:33 [INFO] -- GateHandler: poll request received.  Send poll request to hardware.
+200416-21:55:33 [FINE] -- PCSCore: message received: [Timer (TimesUp) -- TimesUp 00002 0].
+200416-21:55:33 [FINE] -- SensorHandler(Up)Lv0: message received: [PCSCore (Poll) -- ].
+200416-21:55:33 [INFO] -- ------------------------------------------------------------
+200416-21:55:33 [INFO] -- SensorHandler(Up)Lv0: poll request received.  Send poll request to hardware.
+200416-21:55:33 [INFO] -- PCSCore: Open the gate now (for demo only!!!)
+200416-21:55:33 [FINE] -- SensorHandler(Up)Lv0Emulator: Poll request received.  [autoPoll is on]
+200416-21:55:33 [FINE] -- VacancyDispHandler: message received: [PCSCore (Poll) -- ].
+200416-21:55:33 [FINE] -- SensorHandler(Up)Lv0Emulator: Send poll ack.
+200416-21:55:33 [FINE] -- GateHandlerEmulator: Poll request received.  [autoPoll is on]
+200416-21:55:33 [FINE] -- SensorHandler(Down)Lv0: message received: [PCSCore (Poll) -- ].
+200416-21:55:33 [INFO] -- SensorHandler(Down)Lv1: poll request received.  Send poll request to hardware.
+200416-21:55:33 [FINE] -- SensorHandler(Up)Lv0: message received: [SensorHandler(Up)Lv0Emulator (PollAck) -- ].
+200416-21:55:33 [INFO] -- VacancyDispHandler: poll request received.  Send poll request to hardware.
+200416-21:55:33 [FINE] -- GateHandlerEmulator: Send poll ack.
+200416-21:55:33 [INFO] -- SensorHandler(Up)Lv1: poll request received.  Send poll request to hardware.
+200416-21:55:33 [FINE] -- VacancyDispHandlerEmulator: Poll request received.  [autoPoll is on]
+200416-21:55:33 [INFO] -- SensorHandler(Up)Lv0: poll ack received.  Send poll ack to PCS Core.
+200416-21:55:33 [INFO] -- SensorHandler(Down)Lv0: poll request received.  Send poll request to hardware.
+200416-21:55:33 [FINE] -- VacancyDispHandlerEmulator: Send poll ack.
+200416-21:55:33 [FINE] -- GateHandler: message received: [PCSCore (GateOpenRequest) -- ].
+200416-21:55:33 [FINE] -- SensorHandler(Up)Lv1Emulator: Poll request received.  [autoPoll is on]
+200416-21:55:33 [FINE] -- SensorHandler(Down)Lv1Emulator: Poll request received.  [autoPoll is on]
+200416-21:55:33 [FINE] -- VacancyDispHandler: message received: [VacancyDispHandlerEmulator (PollAck) -- ].
+200416-21:55:33 [FINE] -- SensorHandler(Up)Lv1Emulator: Send poll ack.
+200416-21:55:33 [INFO] -- GateHandler: gate open request received
+200416-21:55:33 [FINE] -- SensorHandler(Down)Lv0Emulator: Poll request received.  [autoPoll is on]
+200416-21:55:33 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv0 (PollAck) -- SensorHandler(Up)Lv0 is up!].
+200416-21:55:33 [FINE] -- SensorHandler(Down)Lv0Emulator: Send poll ack.
+200416-21:55:33 [INFO] -- GateHandler: send signal to open the gate now.
+200416-21:55:33 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (PollAck) -- ].
+200416-21:55:33 [INFO] -- VacancyDispHandler: poll ack received.  Send poll ack to PCS Core.
+200416-21:55:33 [FINE] -- SensorHandler(Down)Lv1Emulator: Send poll ack.
+200416-21:55:33 [INFO] -- SensorHandler(Up)Lv1: poll ack received.  Send poll ack to PCS Core.
+200416-21:55:33 [FINE] -- GateHandlerEmulator: Gate open signal received.  [autoOpen is on]
+200416-21:55:33 [FINE] -- SensorHandler(Down)Lv0: message received: [SensorHandler(Down)Lv0Emulator (PollAck) -- ].
+200416-21:55:33 [INFO] -- PollAck: SensorHandler(Up)Lv0 is up!
+200416-21:55:33 [FINE] -- GateHandlerEmulator: Gate open timer started.
+200416-21:55:33 [FINE] -- GateHandler: gate status change: GateClosed --> GateOpening
+200416-21:55:33 [FINE] -- GateHandler: message received: [GateHandlerEmulator (PollAck) -- ].
+200416-21:55:33 [INFO] -- GateHandler: poll ack received.  Send poll ack to PCS Core.
+200416-21:55:33 [FINE] -- SensorHandler(Down)Lv1: message received: [SensorHandler(Down)Lv1Emulator (PollAck) -- ].
+200416-21:55:33 [INFO] -- SensorHandler(Down)Lv1: poll ack received.  Send poll ack to PCS Core.
+200416-21:55:33 [INFO] -- SensorHandler(Down)Lv0: poll ack received.  Send poll ack to PCS Core.
+200416-21:55:33 [FINE] -- PCSCore: message received: [VacancyDispHandler (PollAck) -- VacancyDispHandler is up!].
+200416-21:55:33 [INFO] -- PollAck: VacancyDispHandler is up!
+200416-21:55:33 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (PollAck) -- SensorHandler(Up)Lv1 is up!].
+200416-21:55:33 [INFO] -- PollAck: SensorHandler(Up)Lv1 is up!
+200416-21:55:33 [FINE] -- PCSCore: message received: [GateHandler (PollAck) -- GateHandler is up!].
+200416-21:55:33 [INFO] -- PollAck: GateHandler is up!
+200416-21:55:33 [FINE] -- PCSCore: message received: [SensorHandler(Down)Lv1 (PollAck) -- SensorHandler(Down)Lv1 is up!].
+200416-21:55:33 [INFO] -- PollAck: SensorHandler(Down)Lv1 is up!
+200416-21:55:33 [FINE] -- PCSCore: message received: [SensorHandler(Down)Lv0 (PollAck) -- SensorHandler(Down)Lv0 is up!].
+200416-21:55:33 [INFO] -- PollAck: SensorHandler(Down)Lv0 is up!
+200416-21:55:35 [FINE] -- GateHandler: message received: [Timer (TimesUp) -- TimesUp 00001 0].
+200416-21:55:35 [FINE] -- GateHandlerEmulator: Times up received.
+200416-21:55:35 [FINE] -- GateHandlerEmulator: Gate open timer is up.  [autoOpen is on]
+200416-21:55:35 [FINE] -- GateHandlerEmulator: Send gate open reply
+200416-21:55:35 [FINE] -- GateHandler: message received: [GateHandlerEmulator (GateOpenReply) -- Gate Open Reply].
+200416-21:55:35 [INFO] -- GateHandler: gate open reply received
+200416-21:55:35 [INFO] -- GateHandler: inform PCS Core that gate has finished opening.
+200416-21:55:35 [FINE] -- PCSCore: message received: [GateHandler (GateOpenReply) -- ].
+200416-21:55:35 [FINE] -- GateHandler: gate status change: GateOpening --> GateOpened
+200416-21:55:35 [INFO] -- PCSCore: Gate is opened.
+200416-21:55:38 [FINE] -- PCSCore: message received: [Timer (TimesUp) -- TimesUp 00001 0].
+200416-21:55:38 [INFO] -- ------------------------------------------------------------
+200416-21:55:38 [INFO] -- Poll: TimesUp 00001 0
+200416-21:55:38 [FINE] -- GateHandler: message received: [PCSCore (Poll) -- ].
+200416-21:55:38 [FINE] -- VacancyDispHandler: message received: [PCSCore (Poll) -- ].
+200416-21:55:38 [INFO] -- GateHandler: poll request received.  Send poll request to hardware.
+200416-21:55:38 [FINE] -- GateHandlerEmulator: Poll request received.  [autoPoll is on]
+200416-21:55:38 [FINE] -- SensorHandler(Up)Lv1: message received: [PCSCore (Poll) -- ].
+200416-21:55:38 [FINE] -- SensorHandler(Down)Lv0: message received: [PCSCore (Poll) -- ].
+200416-21:55:38 [INFO] -- SensorHandler(Down)Lv0: poll request received.  Send poll request to hardware.
+200416-21:55:38 [FINE] -- GateHandlerEmulator: Send poll ack.
+200416-21:55:38 [FINE] -- SensorHandler(Down)Lv1: message received: [PCSCore (Poll) -- ].
+200416-21:55:38 [FINE] -- SensorHandler(Up)Lv0: message received: [PCSCore (Poll) -- ].
+200416-21:55:38 [INFO] -- VacancyDispHandler: poll request received.  Send poll request to hardware.
+200416-21:55:38 [INFO] -- SensorHandler(Up)Lv0: poll request received.  Send poll request to hardware.
+200416-21:55:38 [FINE] -- VacancyDispHandlerEmulator: Poll request received.  [autoPoll is on]
+200416-21:55:38 [FINE] -- GateHandler: message received: [GateHandlerEmulator (PollAck) -- ].
+200416-21:55:38 [INFO] -- SensorHandler(Up)Lv1: poll request received.  Send poll request to hardware.
+200416-21:55:38 [INFO] -- GateHandler: poll ack received.  Send poll ack to PCS Core.
+200416-21:55:38 [FINE] -- VacancyDispHandlerEmulator: Send poll ack.
+200416-21:55:38 [FINE] -- SensorHandler(Up)Lv0Emulator: Poll request received.  [autoPoll is on]
+200416-21:55:38 [INFO] -- SensorHandler(Down)Lv1: poll request received.  Send poll request to hardware.
+200416-21:55:38 [FINE] -- SensorHandler(Down)Lv0Emulator: Poll request received.  [autoPoll is on]
+200416-21:55:38 [FINE] -- SensorHandler(Down)Lv1Emulator: Poll request received.  [autoPoll is on]
+200416-21:55:38 [FINE] -- SensorHandler(Down)Lv0Emulator: Send poll ack.
+200416-21:55:38 [FINE] -- SensorHandler(Up)Lv0Emulator: Send poll ack.
+200416-21:55:38 [FINE] -- VacancyDispHandler: message received: [VacancyDispHandlerEmulator (PollAck) -- ].
+200416-21:55:38 [FINE] -- SensorHandler(Up)Lv0: message received: [SensorHandler(Up)Lv0Emulator (PollAck) -- ].
+200416-21:55:38 [FINE] -- PCSCore: message received: [GateHandler (PollAck) -- GateHandler is up!].
+200416-21:55:38 [INFO] -- SensorHandler(Up)Lv0: poll ack received.  Send poll ack to PCS Core.
+200416-21:55:38 [FINE] -- SensorHandler(Up)Lv1Emulator: Poll request received.  [autoPoll is on]
+200416-21:55:38 [INFO] -- PollAck: GateHandler is up!
+200416-21:55:38 [INFO] -- VacancyDispHandler: poll ack received.  Send poll ack to PCS Core.
+200416-21:55:38 [FINE] -- SensorHandler(Down)Lv1Emulator: Send poll ack.
+200416-21:55:38 [FINE] -- SensorHandler(Down)Lv0: message received: [SensorHandler(Down)Lv0Emulator (PollAck) -- ].
+200416-21:55:38 [FINE] -- PCSCore: message received: [Timer (TimesUp) -- TimesUp 00002 0].
+200416-21:55:38 [FINE] -- SensorHandler(Up)Lv1Emulator: Send poll ack.
+200416-21:55:38 [INFO] -- SensorHandler(Down)Lv0: poll ack received.  Send poll ack to PCS Core.
+200416-21:55:38 [INFO] -- ------------------------------------------------------------
+200416-21:55:38 [FINE] -- SensorHandler(Down)Lv1: message received: [SensorHandler(Down)Lv1Emulator (PollAck) -- ].
+200416-21:55:38 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (PollAck) -- ].
+200416-21:55:38 [INFO] -- SensorHandler(Up)Lv1: poll ack received.  Send poll ack to PCS Core.
+200416-21:55:38 [INFO] -- SensorHandler(Down)Lv1: poll ack received.  Send poll ack to PCS Core.
+200416-21:55:38 [INFO] -- PCSCore: Close the gate now (for demo only!!!)
+200416-21:55:38 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv0 (PollAck) -- SensorHandler(Up)Lv0 is up!].
+200416-21:55:38 [FINE] -- GateHandler: message received: [PCSCore (GateCloseRequest) -- ].
+200416-21:55:38 [INFO] -- PollAck: SensorHandler(Up)Lv0 is up!
+200416-21:55:38 [INFO] -- GateHandler: gate close request received
+200416-21:55:38 [FINE] -- PCSCore: message received: [VacancyDispHandler (PollAck) -- VacancyDispHandler is up!].
+200416-21:55:38 [INFO] -- GateHandler: send signal to close the gate now.
+200416-21:55:38 [INFO] -- PollAck: VacancyDispHandler is up!
+200416-21:55:38 [FINE] -- GateHandlerEmulator: Gate close signal received.  [autoClose is on]
+200416-21:55:38 [FINE] -- PCSCore: message received: [SensorHandler(Down)Lv0 (PollAck) -- SensorHandler(Down)Lv0 is up!].
+200416-21:55:38 [FINE] -- GateHandlerEmulator: Gate close timer started.
+200416-21:55:38 [INFO] -- PollAck: SensorHandler(Down)Lv0 is up!
+200416-21:55:38 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (PollAck) -- SensorHandler(Up)Lv1 is up!].
+200416-21:55:38 [FINE] -- GateHandler: gate status change: GateOpened --> GateClosing
+200416-21:55:38 [INFO] -- PollAck: SensorHandler(Up)Lv1 is up!
+200416-21:55:38 [FINE] -- PCSCore: message received: [SensorHandler(Down)Lv1 (PollAck) -- SensorHandler(Down)Lv1 is up!].
+200416-21:55:38 [INFO] -- PollAck: SensorHandler(Down)Lv1 is up!
+200416-21:55:39 [FINE] -- GateHandler: message received: [Timer (TimesUp) -- TimesUp 00002 0].
+200416-21:55:39 [FINE] -- GateHandlerEmulator: Times up received.
+200416-21:55:39 [FINE] -- GateHandlerEmulator: Gate close timer is up.  [autoClose is on]
+200416-21:55:39 [FINE] -- GateHandlerEmulator: Send gate close reply
+200416-21:55:39 [FINE] -- GateHandler: message received: [GateHandlerEmulator (GateCloseReply) -- Gate Close Reply].
+200416-21:55:39 [INFO] -- GateHandler: gate close reply received
+200416-21:55:39 [INFO] -- GateHandler: inform PCS Core that gate has finished closing.
+200416-21:55:39 [FINE] -- PCSCore: message received: [GateHandler (GateCloseReply) -- ].
+200416-21:55:39 [FINE] -- GateHandler: gate status change: GateClosing --> GateClosed
+200416-21:55:39 [INFO] -- PCSCore: Gate is closed.
+200416-21:55:40 [FINE] -- SensorHandler(Up)Lv0: message received: [SensorHandler(Up)Lv0Emulator (SensorEmulatorAutoPollToggle) -- ToggleAutoPoll].
+200416-21:55:40 [FINE] -- SensorHandler(Up)Lv0Emulator: Auto poll change: on --> off
+200416-21:55:41 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorEmulatorAutoPollToggle) -- ToggleAutoPoll].
+200416-21:55:41 [FINE] -- SensorHandler(Up)Lv1Emulator: Auto poll change: on --> off
+200416-21:55:41 [FINE] -- SensorHandler(Down)Lv1: message received: [SensorHandler(Down)Lv1Emulator (SensorEmulatorAutoPollToggle) -- ToggleAutoPoll].
+200416-21:55:41 [FINE] -- SensorHandler(Down)Lv1Emulator: Auto poll change: on --> off
+200416-21:55:41 [FINE] -- SensorHandler(Down)Lv0: message received: [SensorHandler(Down)Lv0Emulator (SensorEmulatorAutoPollToggle) -- ToggleAutoPoll].
+200416-21:55:41 [FINE] -- SensorHandler(Down)Lv0Emulator: Auto poll change: on --> off
+200416-21:55:43 [FINE] -- PCSCore: message received: [Timer (TimesUp) -- TimesUp 00001 0].
+200416-21:55:43 [INFO] -- ------------------------------------------------------------
+200416-21:55:43 [INFO] -- Poll: TimesUp 00001 0
+200416-21:55:43 [FINE] -- SensorHandler(Up)Lv0: message received: [PCSCore (Poll) -- ].
+200416-21:55:43 [FINE] -- SensorHandler(Down)Lv1: message received: [PCSCore (Poll) -- ].
+200416-21:55:43 [FINE] -- GateHandler: message received: [PCSCore (Poll) -- ].
+200416-21:55:43 [INFO] -- SensorHandler(Down)Lv1: poll request received.  Send poll request to hardware.
+200416-21:55:43 [INFO] -- SensorHandler(Up)Lv0: poll request received.  Send poll request to hardware.
+200416-21:55:43 [INFO] -- GateHandler: poll request received.  Send poll request to hardware.
+200416-21:55:43 [FINE] -- SensorHandler(Down)Lv1Emulator: Poll request received.  [autoPoll is off]
+200416-21:55:43 [FINE] -- SensorHandler(Down)Lv0: message received: [PCSCore (Poll) -- ].
+200416-21:55:43 [FINE] -- VacancyDispHandler: message received: [PCSCore (Poll) -- ].
+200416-21:55:43 [INFO] -- VacancyDispHandler: poll request received.  Send poll request to hardware.
+200416-21:55:43 [FINE] -- SensorHandler(Up)Lv0Emulator: Poll request received.  [autoPoll is off]
+200416-21:55:43 [FINE] -- SensorHandler(Up)Lv1: message received: [PCSCore (Poll) -- ].
+200416-21:55:43 [FINE] -- GateHandlerEmulator: Poll request received.  [autoPoll is on]
+200416-21:55:43 [FINE] -- VacancyDispHandlerEmulator: Poll request received.  [autoPoll is on]
+200416-21:55:43 [INFO] -- SensorHandler(Down)Lv0: poll request received.  Send poll request to hardware.
+200416-21:55:43 [INFO] -- SensorHandler(Up)Lv1: poll request received.  Send poll request to hardware.
+200416-21:55:43 [FINE] -- GateHandlerEmulator: Send poll ack.
+200416-21:55:43 [FINE] -- GateHandler: message received: [GateHandlerEmulator (PollAck) -- ].
+200416-21:55:43 [FINE] -- SensorHandler(Down)Lv0Emulator: Poll request received.  [autoPoll is off]
+200416-21:55:43 [FINE] -- SensorHandler(Up)Lv1Emulator: Poll request received.  [autoPoll is off]
+200416-21:55:43 [FINE] -- VacancyDispHandlerEmulator: Send poll ack.
+200416-21:55:43 [INFO] -- GateHandler: poll ack received.  Send poll ack to PCS Core.
+200416-21:55:43 [FINE] -- VacancyDispHandler: message received: [VacancyDispHandlerEmulator (PollAck) -- ].
+200416-21:55:43 [FINE] -- PCSCore: message received: [GateHandler (PollAck) -- GateHandler is up!].
+200416-21:55:43 [INFO] -- VacancyDispHandler: poll ack received.  Send poll ack to PCS Core.
+200416-21:55:43 [INFO] -- PollAck: GateHandler is up!
+200416-21:55:43 [FINE] -- PCSCore: message received: [VacancyDispHandler (PollAck) -- VacancyDispHandler is up!].
+200416-21:55:43 [INFO] -- PollAck: VacancyDispHandler is up!
+200416-21:55:43 [FINE] -- PCSCore: message received: [Timer (TimesUp) -- TimesUp 00002 0].
+200416-21:55:43 [INFO] -- ------------------------------------------------------------
+200416-21:55:43 [INFO] -- PCSCore: Open the gate now (for demo only!!!)
+200416-21:55:43 [FINE] -- GateHandler: message received: [PCSCore (GateOpenRequest) -- ].
+200416-21:55:43 [INFO] -- GateHandler: gate open request received
+200416-21:55:43 [INFO] -- GateHandler: send signal to open the gate now.
+200416-21:55:43 [FINE] -- GateHandlerEmulator: Gate open signal received.  [autoOpen is on]
+200416-21:55:43 [FINE] -- GateHandlerEmulator: Gate open timer started.
+200416-21:55:43 [FINE] -- GateHandler: gate status change: GateClosed --> GateOpening
+200416-21:55:45 [FINE] -- GateHandler: message received: [Timer (TimesUp) -- TimesUp 00001 0].
+200416-21:55:45 [FINE] -- GateHandlerEmulator: Times up received.
+200416-21:55:45 [FINE] -- GateHandlerEmulator: Gate open timer is up.  [autoOpen is on]
+200416-21:55:45 [FINE] -- GateHandlerEmulator: Send gate open reply
+200416-21:55:45 [FINE] -- GateHandler: message received: [GateHandlerEmulator (GateOpenReply) -- Gate Open Reply].
+200416-21:55:45 [INFO] -- GateHandler: gate open reply received
+200416-21:55:45 [INFO] -- GateHandler: inform PCS Core that gate has finished opening.
+200416-21:55:45 [FINE] -- PCSCore: message received: [GateHandler (GateOpenReply) -- ].
+200416-21:55:45 [FINE] -- GateHandler: gate status change: GateOpening --> GateOpened
+200416-21:55:45 [INFO] -- PCSCore: Gate is opened.
+200416-21:55:48 [FINE] -- SensorHandler(Up)Lv0: message received: [SensorHandler(Up)Lv0Emulator (SensorDetectedReply) -- ].
+200416-21:55:48 [INFO] -- SensorHandler(Up)Lv0: sensor detected reply received
+200416-21:55:48 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv0 (CarDrivingUpReply) -- 0].
+200416-21:55:48 [INFO] -- PCSCore:Sensor Detected from level 0, dir: Up
+200416-21:55:48 [INFO] -- 49 50 
+200416-21:55:48 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 49 50 ].
+200416-21:55:48 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:55:48 [FINE] -- PCSCore: message received: [Timer (TimesUp) -- TimesUp 00001 0].
+200416-21:55:48 [INFO] -- ------------------------------------------------------------
+200416-21:55:48 [INFO] -- Poll: TimesUp 00001 0
+200416-21:55:48 [FINE] -- SensorHandler(Down)Lv1: message received: [PCSCore (Poll) -- ].
+200416-21:55:48 [FINE] -- GateHandler: message received: [PCSCore (Poll) -- ].
+200416-21:55:48 [FINE] -- VacancyDispHandler: message received: [PCSCore (Poll) -- ].
+200416-21:55:48 [FINE] -- SensorHandler(Up)Lv0: message received: [PCSCore (Poll) -- ].
+200416-21:55:48 [INFO] -- SensorHandler(Up)Lv0: poll request received.  Send poll request to hardware.
+200416-21:55:48 [FINE] -- SensorHandler(Up)Lv1: message received: [PCSCore (Poll) -- ].
+200416-21:55:48 [FINE] -- SensorHandler(Down)Lv0: message received: [PCSCore (Poll) -- ].
+200416-21:55:48 [FINE] -- SensorHandler(Up)Lv0Emulator: Poll request received.  [autoPoll is off]
+200416-21:55:48 [INFO] -- SensorHandler(Down)Lv0: poll request received.  Send poll request to hardware.
+200416-21:55:48 [INFO] -- VacancyDispHandler: poll request received.  Send poll request to hardware.
+200416-21:55:48 [INFO] -- GateHandler: poll request received.  Send poll request to hardware.
+200416-21:55:48 [INFO] -- SensorHandler(Down)Lv1: poll request received.  Send poll request to hardware.
+200416-21:55:48 [FINE] -- SensorHandler(Down)Lv1Emulator: Poll request received.  [autoPoll is off]
+200416-21:55:48 [FINE] -- SensorHandler(Down)Lv0Emulator: Poll request received.  [autoPoll is off]
+200416-21:55:48 [FINE] -- GateHandlerEmulator: Poll request received.  [autoPoll is on]
+200416-21:55:48 [FINE] -- VacancyDispHandlerEmulator: Poll request received.  [autoPoll is on]
+200416-21:55:48 [INFO] -- SensorHandler(Up)Lv1: poll request received.  Send poll request to hardware.
+200416-21:55:48 [FINE] -- GateHandlerEmulator: Send poll ack.
+200416-21:55:48 [FINE] -- VacancyDispHandlerEmulator: Send poll ack.
+200416-21:55:48 [FINE] -- SensorHandler(Up)Lv1Emulator: Poll request received.  [autoPoll is off]
+200416-21:55:48 [FINE] -- GateHandler: message received: [GateHandlerEmulator (PollAck) -- ].
+200416-21:55:48 [FINE] -- VacancyDispHandler: message received: [VacancyDispHandlerEmulator (PollAck) -- ].
+200416-21:55:48 [INFO] -- GateHandler: poll ack received.  Send poll ack to PCS Core.
+200416-21:55:48 [INFO] -- VacancyDispHandler: poll ack received.  Send poll ack to PCS Core.
+200416-21:55:48 [FINE] -- PCSCore: message received: [GateHandler (PollAck) -- GateHandler is up!].
+200416-21:55:48 [INFO] -- PollAck: GateHandler is up!
+200416-21:55:48 [FINE] -- PCSCore: message received: [VacancyDispHandler (PollAck) -- VacancyDispHandler is up!].
+200416-21:55:48 [INFO] -- PollAck: VacancyDispHandler is up!
+200416-21:55:48 [FINE] -- PCSCore: message received: [Timer (TimesUp) -- TimesUp 00002 0].
+200416-21:55:48 [INFO] -- ------------------------------------------------------------
+200416-21:55:48 [INFO] -- PCSCore: Close the gate now (for demo only!!!)
+200416-21:55:48 [FINE] -- GateHandler: message received: [PCSCore (GateCloseRequest) -- ].
+200416-21:55:48 [INFO] -- GateHandler: gate close request received
+200416-21:55:48 [INFO] -- GateHandler: send signal to close the gate now.
+200416-21:55:48 [FINE] -- GateHandlerEmulator: Gate close signal received.  [autoClose is on]
+200416-21:55:48 [FINE] -- GateHandlerEmulator: Gate close timer started.
+200416-21:55:48 [FINE] -- GateHandler: gate status change: GateOpened --> GateClosing
+200416-21:55:49 [FINE] -- GateHandler: message received: [Timer (TimesUp) -- TimesUp 00002 0].
+200416-21:55:49 [FINE] -- GateHandlerEmulator: Times up received.
+200416-21:55:49 [FINE] -- GateHandlerEmulator: Gate close timer is up.  [autoClose is on]
+200416-21:55:49 [FINE] -- GateHandlerEmulator: Send gate close reply
+200416-21:55:49 [FINE] -- GateHandler: message received: [GateHandlerEmulator (GateCloseReply) -- Gate Close Reply].
+200416-21:55:49 [INFO] -- GateHandler: gate close reply received
+200416-21:55:49 [INFO] -- GateHandler: inform PCS Core that gate has finished closing.
+200416-21:55:49 [FINE] -- GateHandler: gate status change: GateClosing --> GateClosed
+200416-21:55:49 [FINE] -- PCSCore: message received: [GateHandler (GateCloseReply) -- ].
+200416-21:55:49 [INFO] -- PCSCore: Gate is closed.
+200416-21:55:53 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:55:53 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:55:53 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:55:53 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:55:53 [INFO] -- 50 49 
+200416-21:55:53 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 50 49 ].
+200416-21:55:53 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:55:53 [FINE] -- PCSCore: message received: [Timer (TimesUp) -- TimesUp 00001 0].
+200416-21:55:53 [INFO] -- ------------------------------------------------------------
+200416-21:55:53 [INFO] -- Poll: TimesUp 00001 0
+200416-21:55:53 [FINE] -- SensorHandler(Down)Lv1: message received: [PCSCore (Poll) -- ].
+200416-21:55:53 [FINE] -- SensorHandler(Down)Lv0: message received: [PCSCore (Poll) -- ].
+200416-21:55:53 [INFO] -- SensorHandler(Down)Lv0: poll request received.  Send poll request to hardware.
+200416-21:55:53 [FINE] -- VacancyDispHandler: message received: [PCSCore (Poll) -- ].
+200416-21:55:53 [FINE] -- SensorHandler(Down)Lv0Emulator: Poll request received.  [autoPoll is off]
+200416-21:55:53 [FINE] -- SensorHandler(Up)Lv0: message received: [PCSCore (Poll) -- ].
+200416-21:55:53 [INFO] -- VacancyDispHandler: poll request received.  Send poll request to hardware.
+200416-21:55:53 [FINE] -- GateHandler: message received: [PCSCore (Poll) -- ].
+200416-21:55:53 [INFO] -- SensorHandler(Up)Lv0: poll request received.  Send poll request to hardware.
+200416-21:55:53 [INFO] -- SensorHandler(Down)Lv1: poll request received.  Send poll request to hardware.
+200416-21:55:53 [FINE] -- SensorHandler(Up)Lv1: message received: [PCSCore (Poll) -- ].
+200416-21:55:53 [FINE] -- SensorHandler(Down)Lv1Emulator: Poll request received.  [autoPoll is off]
+200416-21:55:53 [FINE] -- SensorHandler(Up)Lv0Emulator: Poll request received.  [autoPoll is off]
+200416-21:55:53 [FINE] -- VacancyDispHandlerEmulator: Poll request received.  [autoPoll is on]
+200416-21:55:53 [INFO] -- GateHandler: poll request received.  Send poll request to hardware.
+200416-21:55:53 [INFO] -- SensorHandler(Up)Lv1: poll request received.  Send poll request to hardware.
+200416-21:55:53 [FINE] -- VacancyDispHandlerEmulator: Send poll ack.
+200416-21:55:53 [FINE] -- SensorHandler(Up)Lv1Emulator: Poll request received.  [autoPoll is off]
+200416-21:55:53 [FINE] -- GateHandlerEmulator: Poll request received.  [autoPoll is on]
+200416-21:55:53 [FINE] -- VacancyDispHandler: message received: [VacancyDispHandlerEmulator (PollAck) -- ].
+200416-21:55:53 [FINE] -- GateHandlerEmulator: Send poll ack.
+200416-21:55:53 [INFO] -- VacancyDispHandler: poll ack received.  Send poll ack to PCS Core.
+200416-21:55:53 [FINE] -- GateHandler: message received: [GateHandlerEmulator (PollAck) -- ].
+200416-21:55:53 [INFO] -- GateHandler: poll ack received.  Send poll ack to PCS Core.
+200416-21:55:53 [FINE] -- PCSCore: message received: [VacancyDispHandler (PollAck) -- VacancyDispHandler is up!].
+200416-21:55:53 [INFO] -- PollAck: VacancyDispHandler is up!
+200416-21:55:53 [FINE] -- PCSCore: message received: [GateHandler (PollAck) -- GateHandler is up!].
+200416-21:55:53 [INFO] -- PollAck: GateHandler is up!
+200416-21:55:53 [FINE] -- PCSCore: message received: [Timer (TimesUp) -- TimesUp 00002 0].
+200416-21:55:53 [INFO] -- ------------------------------------------------------------
+200416-21:55:53 [INFO] -- PCSCore: Open the gate now (for demo only!!!)
+200416-21:55:53 [FINE] -- GateHandler: message received: [PCSCore (GateOpenRequest) -- ].
+200416-21:55:53 [INFO] -- GateHandler: gate open request received
+200416-21:55:53 [INFO] -- GateHandler: send signal to open the gate now.
+200416-21:55:53 [FINE] -- GateHandlerEmulator: Gate open signal received.  [autoOpen is on]
+200416-21:55:53 [FINE] -- GateHandlerEmulator: Gate open timer started.
+200416-21:55:53 [FINE] -- GateHandler: gate status change: GateClosed --> GateOpening
+200416-21:55:55 [FINE] -- GateHandler: message received: [Timer (TimesUp) -- TimesUp 00001 0].
+200416-21:55:55 [FINE] -- GateHandlerEmulator: Times up received.
+200416-21:55:55 [FINE] -- GateHandlerEmulator: Gate open timer is up.  [autoOpen is on]
+200416-21:55:55 [FINE] -- GateHandlerEmulator: Send gate open reply
+200416-21:55:55 [FINE] -- GateHandler: message received: [GateHandlerEmulator (GateOpenReply) -- Gate Open Reply].
+200416-21:55:55 [INFO] -- GateHandler: gate open reply received
+200416-21:55:55 [INFO] -- GateHandler: inform PCS Core that gate has finished opening.
+200416-21:55:55 [FINE] -- GateHandler: gate status change: GateOpening --> GateOpened
+200416-21:55:55 [FINE] -- PCSCore: message received: [GateHandler (GateOpenReply) -- ].
+200416-21:55:55 [INFO] -- PCSCore: Gate is opened.
+200416-21:55:58 [FINE] -- PCSCore: message received: [Timer (TimesUp) -- TimesUp 00001 0].
+200416-21:55:58 [INFO] -- ------------------------------------------------------------
+200416-21:55:58 [INFO] -- Poll: TimesUp 00001 0
+200416-21:55:58 [FINE] -- SensorHandler(Down)Lv0: message received: [PCSCore (Poll) -- ].
+200416-21:55:58 [FINE] -- SensorHandler(Up)Lv0: message received: [PCSCore (Poll) -- ].
+200416-21:55:58 [FINE] -- VacancyDispHandler: message received: [PCSCore (Poll) -- ].
+200416-21:55:58 [FINE] -- GateHandler: message received: [PCSCore (Poll) -- ].
+200416-21:55:58 [INFO] -- VacancyDispHandler: poll request received.  Send poll request to hardware.
+200416-21:55:58 [INFO] -- GateHandler: poll request received.  Send poll request to hardware.
+200416-21:55:58 [FINE] -- GateHandlerEmulator: Poll request received.  [autoPoll is on]
+200416-21:55:58 [FINE] -- SensorHandler(Down)Lv1: message received: [PCSCore (Poll) -- ].
+200416-21:55:58 [INFO] -- SensorHandler(Up)Lv0: poll request received.  Send poll request to hardware.
+200416-21:55:58 [FINE] -- GateHandlerEmulator: Send poll ack.
+200416-21:55:58 [INFO] -- SensorHandler(Down)Lv0: poll request received.  Send poll request to hardware.
+200416-21:55:58 [INFO] -- SensorHandler(Down)Lv1: poll request received.  Send poll request to hardware.
+200416-21:55:58 [FINE] -- GateHandler: message received: [GateHandlerEmulator (PollAck) -- ].
+200416-21:55:58 [FINE] -- SensorHandler(Up)Lv0Emulator: Poll request received.  [autoPoll is off]
+200416-21:55:58 [FINE] -- SensorHandler(Down)Lv0Emulator: Poll request received.  [autoPoll is off]
+200416-21:55:58 [FINE] -- SensorHandler(Up)Lv1: message received: [PCSCore (Poll) -- ].
+200416-21:55:58 [FINE] -- VacancyDispHandlerEmulator: Poll request received.  [autoPoll is on]
+200416-21:55:58 [INFO] -- SensorHandler(Up)Lv1: poll request received.  Send poll request to hardware.
+200416-21:55:58 [INFO] -- GateHandler: poll ack received.  Send poll ack to PCS Core.
+200416-21:55:58 [FINE] -- SensorHandler(Up)Lv1Emulator: Poll request received.  [autoPoll is off]
+200416-21:55:58 [FINE] -- PCSCore: message received: [GateHandler (PollAck) -- GateHandler is up!].
+200416-21:55:58 [INFO] -- PollAck: GateHandler is up!
+200416-21:55:58 [FINE] -- SensorHandler(Down)Lv1Emulator: Poll request received.  [autoPoll is off]
+200416-21:55:58 [FINE] -- VacancyDispHandlerEmulator: Send poll ack.
+200416-21:55:58 [FINE] -- VacancyDispHandler: message received: [VacancyDispHandlerEmulator (PollAck) -- ].
+200416-21:55:58 [INFO] -- VacancyDispHandler: poll ack received.  Send poll ack to PCS Core.
+200416-21:55:58 [FINE] -- PCSCore: message received: [VacancyDispHandler (PollAck) -- VacancyDispHandler is up!].
+200416-21:55:58 [INFO] -- PollAck: VacancyDispHandler is up!
+200416-21:55:58 [FINE] -- PCSCore: message received: [Timer (TimesUp) -- TimesUp 00002 0].
+200416-21:55:58 [INFO] -- ------------------------------------------------------------
+200416-21:55:58 [INFO] -- PCSCore: Close the gate now (for demo only!!!)
+200416-21:55:58 [FINE] -- GateHandler: message received: [PCSCore (GateCloseRequest) -- ].
+200416-21:55:58 [INFO] -- GateHandler: gate close request received
+200416-21:55:58 [INFO] -- GateHandler: send signal to close the gate now.
+200416-21:55:58 [FINE] -- GateHandlerEmulator: Gate close signal received.  [autoClose is on]
+200416-21:55:58 [FINE] -- GateHandlerEmulator: Gate close timer started.
+200416-21:55:58 [FINE] -- GateHandler: gate status change: GateOpened --> GateClosing
+200416-21:55:59 [FINE] -- GateHandler: message received: [Timer (TimesUp) -- TimesUp 00002 0].
+200416-21:55:59 [FINE] -- GateHandlerEmulator: Times up received.
+200416-21:55:59 [FINE] -- GateHandlerEmulator: Gate close timer is up.  [autoClose is on]
+200416-21:55:59 [FINE] -- GateHandlerEmulator: Send gate close reply
+200416-21:55:59 [FINE] -- GateHandler: message received: [GateHandlerEmulator (GateCloseReply) -- Gate Close Reply].
+200416-21:55:59 [INFO] -- GateHandler: gate close reply received
+200416-21:55:59 [INFO] -- GateHandler: inform PCS Core that gate has finished closing.
+200416-21:55:59 [FINE] -- PCSCore: message received: [GateHandler (GateCloseReply) -- ].
+200416-21:55:59 [INFO] -- PCSCore: Gate is closed.
+200416-21:55:59 [FINE] -- GateHandler: gate status change: GateClosing --> GateClosed
+200416-21:56:03 [FINE] -- PCSCore: message received: [Timer (TimesUp) -- TimesUp 00001 0].
+200416-21:56:03 [INFO] -- ------------------------------------------------------------
+200416-21:56:03 [INFO] -- Poll: TimesUp 00001 0
+200416-21:56:03 [FINE] -- SensorHandler(Down)Lv0: message received: [PCSCore (Poll) -- ].
+200416-21:56:03 [INFO] -- SensorHandler(Down)Lv0: poll request received.  Send poll request to hardware.
+200416-21:56:03 [FINE] -- SensorHandler(Down)Lv1: message received: [PCSCore (Poll) -- ].
+200416-21:56:03 [FINE] -- SensorHandler(Up)Lv0: message received: [PCSCore (Poll) -- ].
+200416-21:56:03 [INFO] -- SensorHandler(Up)Lv0: poll request received.  Send poll request to hardware.
+200416-21:56:03 [FINE] -- SensorHandler(Up)Lv0Emulator: Poll request received.  [autoPoll is off]
+200416-21:56:03 [FINE] -- GateHandler: message received: [PCSCore (Poll) -- ].
+200416-21:56:03 [FINE] -- SensorHandler(Up)Lv1: message received: [PCSCore (Poll) -- ].
+200416-21:56:03 [FINE] -- VacancyDispHandler: message received: [PCSCore (Poll) -- ].
+200416-21:56:03 [INFO] -- VacancyDispHandler: poll request received.  Send poll request to hardware.
+200416-21:56:03 [FINE] -- VacancyDispHandlerEmulator: Poll request received.  [autoPoll is on]
+200416-21:56:03 [FINE] -- VacancyDispHandlerEmulator: Send poll ack.
+200416-21:56:03 [FINE] -- VacancyDispHandler: message received: [VacancyDispHandlerEmulator (PollAck) -- ].
+200416-21:56:03 [INFO] -- VacancyDispHandler: poll ack received.  Send poll ack to PCS Core.
+200416-21:56:03 [INFO] -- SensorHandler(Up)Lv1: poll request received.  Send poll request to hardware.
+200416-21:56:03 [FINE] -- SensorHandler(Up)Lv1Emulator: Poll request received.  [autoPoll is off]
+200416-21:56:03 [FINE] -- PCSCore: message received: [VacancyDispHandler (PollAck) -- VacancyDispHandler is up!].
+200416-21:56:03 [INFO] -- PollAck: VacancyDispHandler is up!
+200416-21:56:03 [INFO] -- SensorHandler(Down)Lv1: poll request received.  Send poll request to hardware.
+200416-21:56:03 [INFO] -- GateHandler: poll request received.  Send poll request to hardware.
+200416-21:56:03 [FINE] -- SensorHandler(Down)Lv0Emulator: Poll request received.  [autoPoll is off]
+200416-21:56:03 [FINE] -- GateHandlerEmulator: Poll request received.  [autoPoll is on]
+200416-21:56:03 [FINE] -- GateHandlerEmulator: Send poll ack.
+200416-21:56:03 [FINE] -- GateHandler: message received: [GateHandlerEmulator (PollAck) -- ].
+200416-21:56:03 [INFO] -- GateHandler: poll ack received.  Send poll ack to PCS Core.
+200416-21:56:03 [FINE] -- SensorHandler(Down)Lv1Emulator: Poll request received.  [autoPoll is off]
+200416-21:56:03 [FINE] -- PCSCore: message received: [GateHandler (PollAck) -- GateHandler is up!].
+200416-21:56:03 [INFO] -- PollAck: GateHandler is up!
+200416-21:56:03 [FINE] -- PCSCore: message received: [Timer (TimesUp) -- TimesUp 00002 0].
+200416-21:56:03 [INFO] -- ------------------------------------------------------------
+200416-21:56:03 [INFO] -- PCSCore: Open the gate now (for demo only!!!)
+200416-21:56:03 [FINE] -- GateHandler: message received: [PCSCore (GateOpenRequest) -- ].
+200416-21:56:03 [INFO] -- GateHandler: gate open request received
+200416-21:56:03 [INFO] -- GateHandler: send signal to open the gate now.
+200416-21:56:03 [FINE] -- GateHandlerEmulator: Gate open signal received.  [autoOpen is on]
+200416-21:56:03 [FINE] -- GateHandlerEmulator: Gate open timer started.
+200416-21:56:03 [FINE] -- GateHandler: gate status change: GateClosed --> GateOpening
+200416-21:56:05 [FINE] -- GateHandler: message received: [Timer (TimesUp) -- TimesUp 00001 0].
+200416-21:56:05 [FINE] -- GateHandlerEmulator: Times up received.
+200416-21:56:05 [FINE] -- GateHandlerEmulator: Gate open timer is up.  [autoOpen is on]
+200416-21:56:05 [FINE] -- GateHandlerEmulator: Send gate open reply
+200416-21:56:05 [FINE] -- GateHandler: message received: [GateHandlerEmulator (GateOpenReply) -- Gate Open Reply].
+200416-21:56:05 [INFO] -- GateHandler: gate open reply received
+200416-21:56:05 [INFO] -- GateHandler: inform PCS Core that gate has finished opening.
+200416-21:56:05 [FINE] -- GateHandler: gate status change: GateOpening --> GateOpened
+200416-21:56:05 [FINE] -- PCSCore: message received: [GateHandler (GateOpenReply) -- ].
+200416-21:56:05 [INFO] -- PCSCore: Gate is opened.
+200416-21:56:08 [FINE] -- PCSCore: message received: [Timer (TimesUp) -- TimesUp 00001 0].
+200416-21:56:08 [INFO] -- ------------------------------------------------------------
+200416-21:56:08 [INFO] -- Poll: TimesUp 00001 0
+200416-21:56:08 [FINE] -- GateHandler: message received: [PCSCore (Poll) -- ].
+200416-21:56:08 [FINE] -- SensorHandler(Down)Lv1: message received: [PCSCore (Poll) -- ].
+200416-21:56:08 [FINE] -- SensorHandler(Up)Lv0: message received: [PCSCore (Poll) -- ].
+200416-21:56:08 [INFO] -- GateHandler: poll request received.  Send poll request to hardware.
+200416-21:56:08 [FINE] -- GateHandlerEmulator: Poll request received.  [autoPoll is on]
+200416-21:56:08 [FINE] -- GateHandlerEmulator: Send poll ack.
+200416-21:56:08 [FINE] -- GateHandler: message received: [GateHandlerEmulator (PollAck) -- ].
+200416-21:56:08 [INFO] -- GateHandler: poll ack received.  Send poll ack to PCS Core.
+200416-21:56:08 [FINE] -- SensorHandler(Up)Lv1: message received: [PCSCore (Poll) -- ].
+200416-21:56:08 [FINE] -- PCSCore: message received: [GateHandler (PollAck) -- GateHandler is up!].
+200416-21:56:08 [INFO] -- PollAck: GateHandler is up!
+200416-21:56:08 [FINE] -- SensorHandler(Down)Lv0: message received: [PCSCore (Poll) -- ].
+200416-21:56:08 [INFO] -- SensorHandler(Up)Lv0: poll request received.  Send poll request to hardware.
+200416-21:56:08 [INFO] -- SensorHandler(Down)Lv1: poll request received.  Send poll request to hardware.
+200416-21:56:08 [FINE] -- SensorHandler(Down)Lv1Emulator: Poll request received.  [autoPoll is off]
+200416-21:56:08 [INFO] -- SensorHandler(Up)Lv1: poll request received.  Send poll request to hardware.
+200416-21:56:08 [FINE] -- VacancyDispHandler: message received: [PCSCore (Poll) -- ].
+200416-21:56:08 [FINE] -- SensorHandler(Up)Lv0Emulator: Poll request received.  [autoPoll is off]
+200416-21:56:08 [INFO] -- SensorHandler(Down)Lv0: poll request received.  Send poll request to hardware.
+200416-21:56:08 [FINE] -- SensorHandler(Down)Lv0Emulator: Poll request received.  [autoPoll is off]
+200416-21:56:08 [FINE] -- SensorHandler(Up)Lv1Emulator: Poll request received.  [autoPoll is off]
+200416-21:56:08 [INFO] -- VacancyDispHandler: poll request received.  Send poll request to hardware.
+200416-21:56:08 [FINE] -- VacancyDispHandlerEmulator: Poll request received.  [autoPoll is on]
+200416-21:56:08 [FINE] -- VacancyDispHandlerEmulator: Send poll ack.
+200416-21:56:08 [FINE] -- VacancyDispHandler: message received: [VacancyDispHandlerEmulator (PollAck) -- ].
+200416-21:56:08 [INFO] -- VacancyDispHandler: poll ack received.  Send poll ack to PCS Core.
+200416-21:56:08 [FINE] -- PCSCore: message received: [VacancyDispHandler (PollAck) -- VacancyDispHandler is up!].
+200416-21:56:08 [INFO] -- PollAck: VacancyDispHandler is up!
+200416-21:56:08 [FINE] -- PCSCore: message received: [Timer (TimesUp) -- TimesUp 00002 0].
+200416-21:56:08 [INFO] -- ------------------------------------------------------------
+200416-21:56:08 [INFO] -- PCSCore: Close the gate now (for demo only!!!)
+200416-21:56:08 [FINE] -- GateHandler: message received: [PCSCore (GateCloseRequest) -- ].
+200416-21:56:08 [INFO] -- GateHandler: gate close request received
+200416-21:56:08 [INFO] -- GateHandler: send signal to close the gate now.
+200416-21:56:08 [FINE] -- GateHandlerEmulator: Gate close signal received.  [autoClose is on]
+200416-21:56:08 [FINE] -- GateHandlerEmulator: Gate close timer started.
+200416-21:56:08 [FINE] -- GateHandler: gate status change: GateOpened --> GateClosing
+200416-21:56:09 [FINE] -- GateHandler: message received: [Timer (TimesUp) -- TimesUp 00002 0].
+200416-21:56:09 [FINE] -- GateHandlerEmulator: Times up received.
+200416-21:56:09 [FINE] -- GateHandlerEmulator: Gate close timer is up.  [autoClose is on]
+200416-21:56:09 [FINE] -- GateHandlerEmulator: Send gate close reply
+200416-21:56:09 [FINE] -- GateHandler: message received: [GateHandlerEmulator (GateCloseReply) -- Gate Close Reply].
+200416-21:56:09 [INFO] -- GateHandler: gate close reply received
+200416-21:56:09 [INFO] -- GateHandler: inform PCS Core that gate has finished closing.
+200416-21:56:09 [FINE] -- GateHandler: gate status change: GateClosing --> GateClosed
+200416-21:56:09 [FINE] -- PCSCore: message received: [GateHandler (GateCloseReply) -- ].
+200416-21:56:09 [INFO] -- PCSCore: Gate is closed.
+200416-21:56:13 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:13 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:13 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:13 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:13 [INFO] -- 50 48 
+200416-21:56:13 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 50 48 ].
+200416-21:56:13 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:13 [FINE] -- PCSCore: message received: [Timer (TimesUp) -- TimesUp 00001 0].
+200416-21:56:13 [INFO] -- ------------------------------------------------------------
+200416-21:56:13 [INFO] -- Poll: TimesUp 00001 0
+200416-21:56:13 [FINE] -- SensorHandler(Down)Lv0: message received: [PCSCore (Poll) -- ].
+200416-21:56:13 [INFO] -- SensorHandler(Down)Lv0: poll request received.  Send poll request to hardware.
+200416-21:56:13 [FINE] -- VacancyDispHandler: message received: [PCSCore (Poll) -- ].
+200416-21:56:13 [FINE] -- GateHandler: message received: [PCSCore (Poll) -- ].
+200416-21:56:13 [INFO] -- GateHandler: poll request received.  Send poll request to hardware.
+200416-21:56:13 [FINE] -- SensorHandler(Up)Lv1: message received: [PCSCore (Poll) -- ].
+200416-21:56:13 [FINE] -- GateHandlerEmulator: Poll request received.  [autoPoll is on]
+200416-21:56:13 [FINE] -- SensorHandler(Down)Lv0Emulator: Poll request received.  [autoPoll is off]
+200416-21:56:13 [FINE] -- SensorHandler(Up)Lv0: message received: [PCSCore (Poll) -- ].
+200416-21:56:13 [FINE] -- GateHandlerEmulator: Send poll ack.
+200416-21:56:13 [INFO] -- SensorHandler(Up)Lv0: poll request received.  Send poll request to hardware.
+200416-21:56:13 [INFO] -- VacancyDispHandler: poll request received.  Send poll request to hardware.
+200416-21:56:13 [INFO] -- SensorHandler(Up)Lv1: poll request received.  Send poll request to hardware.
+200416-21:56:13 [FINE] -- VacancyDispHandlerEmulator: Poll request received.  [autoPoll is on]
+200416-21:56:13 [FINE] -- SensorHandler(Up)Lv1Emulator: Poll request received.  [autoPoll is off]
+200416-21:56:13 [FINE] -- VacancyDispHandlerEmulator: Send poll ack.
+200416-21:56:13 [FINE] -- SensorHandler(Down)Lv1: message received: [PCSCore (Poll) -- ].
+200416-21:56:13 [FINE] -- VacancyDispHandler: message received: [VacancyDispHandlerEmulator (PollAck) -- ].
+200416-21:56:13 [FINE] -- SensorHandler(Up)Lv0Emulator: Poll request received.  [autoPoll is off]
+200416-21:56:13 [FINE] -- GateHandler: message received: [GateHandlerEmulator (PollAck) -- ].
+200416-21:56:13 [INFO] -- VacancyDispHandler: poll ack received.  Send poll ack to PCS Core.
+200416-21:56:13 [INFO] -- SensorHandler(Down)Lv1: poll request received.  Send poll request to hardware.
+200416-21:56:13 [INFO] -- GateHandler: poll ack received.  Send poll ack to PCS Core.
+200416-21:56:13 [FINE] -- PCSCore: message received: [VacancyDispHandler (PollAck) -- VacancyDispHandler is up!].
+200416-21:56:13 [INFO] -- PollAck: VacancyDispHandler is up!
+200416-21:56:13 [FINE] -- PCSCore: message received: [GateHandler (PollAck) -- GateHandler is up!].
+200416-21:56:13 [INFO] -- PollAck: GateHandler is up!
+200416-21:56:13 [FINE] -- SensorHandler(Down)Lv1Emulator: Poll request received.  [autoPoll is off]
+200416-21:56:13 [FINE] -- PCSCore: message received: [Timer (TimesUp) -- TimesUp 00002 0].
+200416-21:56:13 [INFO] -- ------------------------------------------------------------
+200416-21:56:13 [INFO] -- PCSCore: Open the gate now (for demo only!!!)
+200416-21:56:13 [FINE] -- GateHandler: message received: [PCSCore (GateOpenRequest) -- ].
+200416-21:56:13 [INFO] -- GateHandler: gate open request received
+200416-21:56:13 [INFO] -- GateHandler: send signal to open the gate now.
+200416-21:56:13 [FINE] -- GateHandlerEmulator: Gate open signal received.  [autoOpen is on]
+200416-21:56:13 [FINE] -- GateHandlerEmulator: Gate open timer started.
+200416-21:56:13 [FINE] -- GateHandler: gate status change: GateClosed --> GateOpening
+200416-21:56:13 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:13 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:13 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:13 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:13 [INFO] -- 50 47 
+200416-21:56:13 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 50 47 ].
+200416-21:56:13 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:14 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:14 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:14 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:14 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:14 [INFO] -- 50 46 
+200416-21:56:14 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 50 46 ].
+200416-21:56:14 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:14 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:14 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:14 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:14 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:14 [INFO] -- 50 45 
+200416-21:56:14 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 50 45 ].
+200416-21:56:14 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:14 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:14 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:14 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:14 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:14 [INFO] -- 50 44 
+200416-21:56:14 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 50 44 ].
+200416-21:56:14 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:15 [FINE] -- GateHandler: message received: [Timer (TimesUp) -- TimesUp 00001 0].
+200416-21:56:15 [FINE] -- GateHandlerEmulator: Times up received.
+200416-21:56:15 [FINE] -- GateHandlerEmulator: Gate open timer is up.  [autoOpen is on]
+200416-21:56:15 [FINE] -- GateHandlerEmulator: Send gate open reply
+200416-21:56:15 [FINE] -- GateHandler: message received: [GateHandlerEmulator (GateOpenReply) -- Gate Open Reply].
+200416-21:56:15 [INFO] -- GateHandler: gate open reply received
+200416-21:56:15 [INFO] -- GateHandler: inform PCS Core that gate has finished opening.
+200416-21:56:15 [FINE] -- GateHandler: gate status change: GateOpening --> GateOpened
+200416-21:56:15 [FINE] -- PCSCore: message received: [GateHandler (GateOpenReply) -- ].
+200416-21:56:15 [INFO] -- PCSCore: Gate is opened.
+200416-21:56:15 [FINE] -- SensorHandler(Up)Lv0: message received: [SensorHandler(Up)Lv0Emulator (SensorDetectedReply) -- ].
+200416-21:56:15 [INFO] -- SensorHandler(Up)Lv0: sensor detected reply received
+200416-21:56:15 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv0 (CarDrivingUpReply) -- 0].
+200416-21:56:15 [INFO] -- PCSCore:Sensor Detected from level 0, dir: Up
+200416-21:56:15 [INFO] -- 49 44 
+200416-21:56:15 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 49 44 ].
+200416-21:56:15 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:15 [FINE] -- SensorHandler(Up)Lv0: message received: [SensorHandler(Up)Lv0Emulator (SensorDetectedReply) -- ].
+200416-21:56:15 [INFO] -- SensorHandler(Up)Lv0: sensor detected reply received
+200416-21:56:15 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv0 (CarDrivingUpReply) -- 0].
+200416-21:56:15 [INFO] -- PCSCore:Sensor Detected from level 0, dir: Up
+200416-21:56:15 [INFO] -- 48 44 
+200416-21:56:15 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 48 44 ].
+200416-21:56:15 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:16 [FINE] -- SensorHandler(Up)Lv0: message received: [SensorHandler(Up)Lv0Emulator (SensorDetectedReply) -- ].
+200416-21:56:16 [INFO] -- SensorHandler(Up)Lv0: sensor detected reply received
+200416-21:56:16 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv0 (CarDrivingUpReply) -- 0].
+200416-21:56:16 [INFO] -- PCSCore:Sensor Detected from level 0, dir: Up
+200416-21:56:16 [INFO] -- 47 44 
+200416-21:56:16 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 47 44 ].
+200416-21:56:16 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:16 [FINE] -- SensorHandler(Up)Lv0: message received: [SensorHandler(Up)Lv0Emulator (SensorDetectedReply) -- ].
+200416-21:56:16 [INFO] -- SensorHandler(Up)Lv0: sensor detected reply received
+200416-21:56:16 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv0 (CarDrivingUpReply) -- 0].
+200416-21:56:16 [INFO] -- PCSCore:Sensor Detected from level 0, dir: Up
+200416-21:56:16 [INFO] -- 46 44 
+200416-21:56:16 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 46 44 ].
+200416-21:56:16 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:16 [FINE] -- SensorHandler(Up)Lv0: message received: [SensorHandler(Up)Lv0Emulator (SensorDetectedReply) -- ].
+200416-21:56:16 [INFO] -- SensorHandler(Up)Lv0: sensor detected reply received
+200416-21:56:16 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv0 (CarDrivingUpReply) -- 0].
+200416-21:56:16 [INFO] -- PCSCore:Sensor Detected from level 0, dir: Up
+200416-21:56:16 [INFO] -- 45 44 
+200416-21:56:16 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 45 44 ].
+200416-21:56:16 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:16 [FINE] -- SensorHandler(Up)Lv0: message received: [SensorHandler(Up)Lv0Emulator (SensorDetectedReply) -- ].
+200416-21:56:16 [INFO] -- SensorHandler(Up)Lv0: sensor detected reply received
+200416-21:56:16 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv0 (CarDrivingUpReply) -- 0].
+200416-21:56:16 [INFO] -- PCSCore:Sensor Detected from level 0, dir: Up
+200416-21:56:16 [INFO] -- 44 44 
+200416-21:56:16 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 44 44 ].
+200416-21:56:16 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:16 [FINE] -- SensorHandler(Up)Lv0: message received: [SensorHandler(Up)Lv0Emulator (SensorDetectedReply) -- ].
+200416-21:56:16 [INFO] -- SensorHandler(Up)Lv0: sensor detected reply received
+200416-21:56:16 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv0 (CarDrivingUpReply) -- 0].
+200416-21:56:16 [INFO] -- PCSCore:Sensor Detected from level 0, dir: Up
+200416-21:56:16 [INFO] -- 43 44 
+200416-21:56:16 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 43 44 ].
+200416-21:56:16 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:16 [FINE] -- SensorHandler(Up)Lv0: message received: [SensorHandler(Up)Lv0Emulator (SensorDetectedReply) -- ].
+200416-21:56:16 [INFO] -- SensorHandler(Up)Lv0: sensor detected reply received
+200416-21:56:16 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv0 (CarDrivingUpReply) -- 0].
+200416-21:56:16 [INFO] -- PCSCore:Sensor Detected from level 0, dir: Up
+200416-21:56:16 [INFO] -- 42 44 
+200416-21:56:16 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 42 44 ].
+200416-21:56:16 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:17 [FINE] -- SensorHandler(Up)Lv0: message received: [SensorHandler(Up)Lv0Emulator (SensorDetectedReply) -- ].
+200416-21:56:17 [INFO] -- SensorHandler(Up)Lv0: sensor detected reply received
+200416-21:56:17 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv0 (CarDrivingUpReply) -- 0].
+200416-21:56:17 [INFO] -- PCSCore:Sensor Detected from level 0, dir: Up
+200416-21:56:17 [INFO] -- 41 44 
+200416-21:56:17 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 41 44 ].
+200416-21:56:17 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:17 [FINE] -- SensorHandler(Up)Lv0: message received: [SensorHandler(Up)Lv0Emulator (SensorDetectedReply) -- ].
+200416-21:56:17 [INFO] -- SensorHandler(Up)Lv0: sensor detected reply received
+200416-21:56:17 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv0 (CarDrivingUpReply) -- 0].
+200416-21:56:17 [INFO] -- PCSCore:Sensor Detected from level 0, dir: Up
+200416-21:56:17 [INFO] -- 40 44 
+200416-21:56:17 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 40 44 ].
+200416-21:56:17 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:17 [FINE] -- SensorHandler(Up)Lv0: message received: [SensorHandler(Up)Lv0Emulator (SensorDetectedReply) -- ].
+200416-21:56:17 [INFO] -- SensorHandler(Up)Lv0: sensor detected reply received
+200416-21:56:17 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv0 (CarDrivingUpReply) -- 0].
+200416-21:56:17 [INFO] -- PCSCore:Sensor Detected from level 0, dir: Up
+200416-21:56:17 [INFO] -- 39 44 
+200416-21:56:17 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 39 44 ].
+200416-21:56:17 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:17 [FINE] -- SensorHandler(Up)Lv0: message received: [SensorHandler(Up)Lv0Emulator (SensorDetectedReply) -- ].
+200416-21:56:17 [INFO] -- SensorHandler(Up)Lv0: sensor detected reply received
+200416-21:56:17 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv0 (CarDrivingUpReply) -- 0].
+200416-21:56:17 [INFO] -- PCSCore:Sensor Detected from level 0, dir: Up
+200416-21:56:17 [INFO] -- 38 44 
+200416-21:56:17 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 38 44 ].
+200416-21:56:17 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:17 [FINE] -- SensorHandler(Up)Lv0: message received: [SensorHandler(Up)Lv0Emulator (SensorDetectedReply) -- ].
+200416-21:56:17 [INFO] -- SensorHandler(Up)Lv0: sensor detected reply received
+200416-21:56:17 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv0 (CarDrivingUpReply) -- 0].
+200416-21:56:17 [INFO] -- PCSCore:Sensor Detected from level 0, dir: Up
+200416-21:56:17 [INFO] -- 37 44 
+200416-21:56:17 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 37 44 ].
+200416-21:56:17 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:17 [FINE] -- SensorHandler(Up)Lv0: message received: [SensorHandler(Up)Lv0Emulator (SensorDetectedReply) -- ].
+200416-21:56:17 [INFO] -- SensorHandler(Up)Lv0: sensor detected reply received
+200416-21:56:17 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv0 (CarDrivingUpReply) -- 0].
+200416-21:56:17 [INFO] -- PCSCore:Sensor Detected from level 0, dir: Up
+200416-21:56:17 [INFO] -- 36 44 
+200416-21:56:17 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 36 44 ].
+200416-21:56:17 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:18 [FINE] -- SensorHandler(Down)Lv0: message received: [SensorHandler(Down)Lv0Emulator (SensorDetectedReply) -- ].
+200416-21:56:18 [INFO] -- SensorHandler(Down)Lv0: sensor detected reply received
+200416-21:56:18 [FINE] -- PCSCore: message received: [SensorHandler(Down)Lv0 (CarDrivingDownReply) -- 0].
+200416-21:56:18 [INFO] -- PCSCore:Sensor Detected from level 0, dir: Down
+200416-21:56:18 [INFO] -- 37 44 
+200416-21:56:18 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 37 44 ].
+200416-21:56:18 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:18 [FINE] -- PCSCore: message received: [Timer (TimesUp) -- TimesUp 00001 0].
+200416-21:56:18 [INFO] -- ------------------------------------------------------------
+200416-21:56:18 [INFO] -- Poll: TimesUp 00001 0
+200416-21:56:18 [FINE] -- SensorHandler(Up)Lv1: message received: [PCSCore (Poll) -- ].
+200416-21:56:18 [FINE] -- GateHandler: message received: [PCSCore (Poll) -- ].
+200416-21:56:18 [FINE] -- SensorHandler(Down)Lv1: message received: [PCSCore (Poll) -- ].
+200416-21:56:18 [FINE] -- SensorHandler(Up)Lv0: message received: [PCSCore (Poll) -- ].
+200416-21:56:18 [FINE] -- VacancyDispHandler: message received: [PCSCore (Poll) -- ].
+200416-21:56:18 [INFO] -- SensorHandler(Up)Lv0: poll request received.  Send poll request to hardware.
+200416-21:56:18 [INFO] -- VacancyDispHandler: poll request received.  Send poll request to hardware.
+200416-21:56:18 [FINE] -- SensorHandler(Down)Lv0: message received: [PCSCore (Poll) -- ].
+200416-21:56:18 [FINE] -- VacancyDispHandlerEmulator: Poll request received.  [autoPoll is on]
+200416-21:56:18 [INFO] -- SensorHandler(Down)Lv0: poll request received.  Send poll request to hardware.
+200416-21:56:18 [FINE] -- SensorHandler(Up)Lv0Emulator: Poll request received.  [autoPoll is off]
+200416-21:56:18 [INFO] -- SensorHandler(Down)Lv1: poll request received.  Send poll request to hardware.
+200416-21:56:18 [INFO] -- SensorHandler(Up)Lv1: poll request received.  Send poll request to hardware.
+200416-21:56:18 [FINE] -- SensorHandler(Down)Lv1Emulator: Poll request received.  [autoPoll is off]
+200416-21:56:18 [INFO] -- GateHandler: poll request received.  Send poll request to hardware.
+200416-21:56:18 [FINE] -- SensorHandler(Up)Lv1Emulator: Poll request received.  [autoPoll is off]
+200416-21:56:18 [FINE] -- GateHandlerEmulator: Poll request received.  [autoPoll is on]
+200416-21:56:18 [FINE] -- GateHandlerEmulator: Send poll ack.
+200416-21:56:18 [FINE] -- VacancyDispHandlerEmulator: Send poll ack.
+200416-21:56:18 [FINE] -- SensorHandler(Down)Lv0Emulator: Poll request received.  [autoPoll is off]
+200416-21:56:18 [FINE] -- VacancyDispHandler: message received: [VacancyDispHandlerEmulator (PollAck) -- ].
+200416-21:56:18 [FINE] -- GateHandler: message received: [GateHandlerEmulator (PollAck) -- ].
+200416-21:56:18 [INFO] -- VacancyDispHandler: poll ack received.  Send poll ack to PCS Core.
+200416-21:56:18 [INFO] -- GateHandler: poll ack received.  Send poll ack to PCS Core.
+200416-21:56:18 [FINE] -- PCSCore: message received: [VacancyDispHandler (PollAck) -- VacancyDispHandler is up!].
+200416-21:56:18 [INFO] -- PollAck: VacancyDispHandler is up!
+200416-21:56:18 [FINE] -- PCSCore: message received: [GateHandler (PollAck) -- GateHandler is up!].
+200416-21:56:18 [INFO] -- PollAck: GateHandler is up!
+200416-21:56:18 [FINE] -- PCSCore: message received: [Timer (TimesUp) -- TimesUp 00002 0].
+200416-21:56:18 [INFO] -- ------------------------------------------------------------
+200416-21:56:18 [INFO] -- PCSCore: Close the gate now (for demo only!!!)
+200416-21:56:18 [FINE] -- GateHandler: message received: [PCSCore (GateCloseRequest) -- ].
+200416-21:56:18 [INFO] -- GateHandler: gate close request received
+200416-21:56:18 [INFO] -- GateHandler: send signal to close the gate now.
+200416-21:56:18 [FINE] -- GateHandlerEmulator: Gate close signal received.  [autoClose is on]
+200416-21:56:18 [FINE] -- GateHandlerEmulator: Gate close timer started.
+200416-21:56:18 [FINE] -- GateHandler: gate status change: GateOpened --> GateClosing
+200416-21:56:18 [FINE] -- SensorHandler(Down)Lv0: message received: [SensorHandler(Down)Lv0Emulator (SensorDetectedReply) -- ].
+200416-21:56:18 [INFO] -- SensorHandler(Down)Lv0: sensor detected reply received
+200416-21:56:18 [FINE] -- PCSCore: message received: [SensorHandler(Down)Lv0 (CarDrivingDownReply) -- 0].
+200416-21:56:18 [INFO] -- PCSCore:Sensor Detected from level 0, dir: Down
+200416-21:56:18 [INFO] -- 38 44 
+200416-21:56:18 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 38 44 ].
+200416-21:56:18 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:18 [FINE] -- SensorHandler(Down)Lv0: message received: [SensorHandler(Down)Lv0Emulator (SensorDetectedReply) -- ].
+200416-21:56:18 [INFO] -- SensorHandler(Down)Lv0: sensor detected reply received
+200416-21:56:18 [FINE] -- PCSCore: message received: [SensorHandler(Down)Lv0 (CarDrivingDownReply) -- 0].
+200416-21:56:18 [INFO] -- PCSCore:Sensor Detected from level 0, dir: Down
+200416-21:56:18 [INFO] -- 39 44 
+200416-21:56:18 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 39 44 ].
+200416-21:56:18 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:19 [FINE] -- SensorHandler(Down)Lv0: message received: [SensorHandler(Down)Lv0Emulator (SensorDetectedReply) -- ].
+200416-21:56:19 [INFO] -- SensorHandler(Down)Lv0: sensor detected reply received
+200416-21:56:19 [FINE] -- PCSCore: message received: [SensorHandler(Down)Lv0 (CarDrivingDownReply) -- 0].
+200416-21:56:19 [INFO] -- PCSCore:Sensor Detected from level 0, dir: Down
+200416-21:56:19 [INFO] -- 40 44 
+200416-21:56:19 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 40 44 ].
+200416-21:56:19 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:19 [FINE] -- GateHandler: message received: [Timer (TimesUp) -- TimesUp 00002 0].
+200416-21:56:19 [FINE] -- GateHandlerEmulator: Times up received.
+200416-21:56:19 [FINE] -- GateHandlerEmulator: Gate close timer is up.  [autoClose is on]
+200416-21:56:19 [FINE] -- GateHandlerEmulator: Send gate close reply
+200416-21:56:19 [FINE] -- GateHandler: message received: [GateHandlerEmulator (GateCloseReply) -- Gate Close Reply].
+200416-21:56:19 [INFO] -- GateHandler: gate close reply received
+200416-21:56:19 [INFO] -- GateHandler: inform PCS Core that gate has finished closing.
+200416-21:56:19 [FINE] -- GateHandler: gate status change: GateClosing --> GateClosed
+200416-21:56:19 [FINE] -- PCSCore: message received: [GateHandler (GateCloseReply) -- ].
+200416-21:56:19 [INFO] -- PCSCore: Gate is closed.
+200416-21:56:20 [FINE] -- SensorHandler(Up)Lv0: message received: [SensorHandler(Up)Lv0Emulator (SensorDetectedReply) -- ].
+200416-21:56:20 [INFO] -- SensorHandler(Up)Lv0: sensor detected reply received
+200416-21:56:20 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv0 (CarDrivingUpReply) -- 0].
+200416-21:56:20 [INFO] -- PCSCore:Sensor Detected from level 0, dir: Up
+200416-21:56:20 [INFO] -- 39 44 
+200416-21:56:20 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 39 44 ].
+200416-21:56:20 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:21 [FINE] -- SensorHandler(Up)Lv0: message received: [SensorHandler(Up)Lv0Emulator (SensorDetectedReply) -- ].
+200416-21:56:21 [INFO] -- SensorHandler(Up)Lv0: sensor detected reply received
+200416-21:56:21 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv0 (CarDrivingUpReply) -- 0].
+200416-21:56:21 [INFO] -- PCSCore:Sensor Detected from level 0, dir: Up
+200416-21:56:21 [INFO] -- 38 44 
+200416-21:56:21 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 38 44 ].
+200416-21:56:21 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:21 [FINE] -- SensorHandler(Up)Lv0: message received: [SensorHandler(Up)Lv0Emulator (SensorDetectedReply) -- ].
+200416-21:56:21 [INFO] -- SensorHandler(Up)Lv0: sensor detected reply received
+200416-21:56:21 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv0 (CarDrivingUpReply) -- 0].
+200416-21:56:21 [INFO] -- PCSCore:Sensor Detected from level 0, dir: Up
+200416-21:56:21 [INFO] -- 37 44 
+200416-21:56:21 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 37 44 ].
+200416-21:56:21 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:23 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:23 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:23 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:23 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:23 [INFO] -- 38 43 
+200416-21:56:23 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 38 43 ].
+200416-21:56:23 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:23 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:23 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:23 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:23 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:23 [INFO] -- 39 42 
+200416-21:56:23 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 39 42 ].
+200416-21:56:23 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:23 [FINE] -- PCSCore: message received: [Timer (TimesUp) -- TimesUp 00001 0].
+200416-21:56:23 [INFO] -- ------------------------------------------------------------
+200416-21:56:23 [INFO] -- Poll: TimesUp 00001 0
+200416-21:56:23 [FINE] -- GateHandler: message received: [PCSCore (Poll) -- ].
+200416-21:56:23 [FINE] -- SensorHandler(Up)Lv1: message received: [PCSCore (Poll) -- ].
+200416-21:56:23 [FINE] -- SensorHandler(Up)Lv0: message received: [PCSCore (Poll) -- ].
+200416-21:56:23 [FINE] -- SensorHandler(Down)Lv1: message received: [PCSCore (Poll) -- ].
+200416-21:56:23 [FINE] -- SensorHandler(Down)Lv0: message received: [PCSCore (Poll) -- ].
+200416-21:56:23 [FINE] -- VacancyDispHandler: message received: [PCSCore (Poll) -- ].
+200416-21:56:23 [INFO] -- SensorHandler(Down)Lv0: poll request received.  Send poll request to hardware.
+200416-21:56:23 [INFO] -- SensorHandler(Up)Lv0: poll request received.  Send poll request to hardware.
+200416-21:56:23 [INFO] -- SensorHandler(Up)Lv1: poll request received.  Send poll request to hardware.
+200416-21:56:23 [INFO] -- GateHandler: poll request received.  Send poll request to hardware.
+200416-21:56:23 [INFO] -- VacancyDispHandler: poll request received.  Send poll request to hardware.
+200416-21:56:23 [INFO] -- SensorHandler(Down)Lv1: poll request received.  Send poll request to hardware.
+200416-21:56:23 [FINE] -- GateHandlerEmulator: Poll request received.  [autoPoll is on]
+200416-21:56:23 [FINE] -- SensorHandler(Up)Lv0Emulator: Poll request received.  [autoPoll is off]
+200416-21:56:23 [FINE] -- SensorHandler(Up)Lv1Emulator: Poll request received.  [autoPoll is off]
+200416-21:56:23 [FINE] -- SensorHandler(Down)Lv0Emulator: Poll request received.  [autoPoll is off]
+200416-21:56:23 [FINE] -- SensorHandler(Down)Lv1Emulator: Poll request received.  [autoPoll is off]
+200416-21:56:23 [FINE] -- VacancyDispHandlerEmulator: Poll request received.  [autoPoll is on]
+200416-21:56:23 [FINE] -- GateHandlerEmulator: Send poll ack.
+200416-21:56:23 [FINE] -- VacancyDispHandlerEmulator: Send poll ack.
+200416-21:56:23 [FINE] -- GateHandler: message received: [GateHandlerEmulator (PollAck) -- ].
+200416-21:56:23 [FINE] -- VacancyDispHandler: message received: [VacancyDispHandlerEmulator (PollAck) -- ].
+200416-21:56:23 [INFO] -- GateHandler: poll ack received.  Send poll ack to PCS Core.
+200416-21:56:23 [INFO] -- VacancyDispHandler: poll ack received.  Send poll ack to PCS Core.
+200416-21:56:23 [FINE] -- PCSCore: message received: [GateHandler (PollAck) -- GateHandler is up!].
+200416-21:56:23 [INFO] -- PollAck: GateHandler is up!
+200416-21:56:23 [FINE] -- PCSCore: message received: [VacancyDispHandler (PollAck) -- VacancyDispHandler is up!].
+200416-21:56:23 [INFO] -- PollAck: VacancyDispHandler is up!
+200416-21:56:23 [FINE] -- PCSCore: message received: [Timer (TimesUp) -- TimesUp 00002 0].
+200416-21:56:23 [INFO] -- ------------------------------------------------------------
+200416-21:56:23 [INFO] -- PCSCore: Open the gate now (for demo only!!!)
+200416-21:56:23 [FINE] -- GateHandler: message received: [PCSCore (GateOpenRequest) -- ].
+200416-21:56:23 [INFO] -- GateHandler: gate open request received
+200416-21:56:23 [INFO] -- GateHandler: send signal to open the gate now.
+200416-21:56:23 [FINE] -- GateHandlerEmulator: Gate open signal received.  [autoOpen is on]
+200416-21:56:23 [FINE] -- GateHandlerEmulator: Gate open timer started.
+200416-21:56:23 [FINE] -- GateHandler: gate status change: GateClosed --> GateOpening
+200416-21:56:23 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:23 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:23 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:23 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:23 [INFO] -- 40 41 
+200416-21:56:23 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 40 41 ].
+200416-21:56:23 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:23 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:23 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:23 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:23 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:23 [INFO] -- 41 40 
+200416-21:56:23 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 41 40 ].
+200416-21:56:23 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:24 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:24 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:24 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:24 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:24 [INFO] -- 42 39 
+200416-21:56:24 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 42 39 ].
+200416-21:56:24 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:24 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:24 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:24 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:24 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:24 [INFO] -- 43 38 
+200416-21:56:24 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 43 38 ].
+200416-21:56:24 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:24 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:24 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:24 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:24 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:24 [INFO] -- 44 37 
+200416-21:56:24 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 44 37 ].
+200416-21:56:24 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:25 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:25 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:25 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:25 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:25 [INFO] -- 45 36 
+200416-21:56:25 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 45 36 ].
+200416-21:56:25 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:25 [FINE] -- GateHandler: message received: [Timer (TimesUp) -- TimesUp 00001 0].
+200416-21:56:25 [FINE] -- GateHandlerEmulator: Times up received.
+200416-21:56:25 [FINE] -- GateHandlerEmulator: Gate open timer is up.  [autoOpen is on]
+200416-21:56:25 [FINE] -- GateHandlerEmulator: Send gate open reply
+200416-21:56:25 [FINE] -- GateHandler: message received: [GateHandlerEmulator (GateOpenReply) -- Gate Open Reply].
+200416-21:56:25 [INFO] -- GateHandler: gate open reply received
+200416-21:56:25 [INFO] -- GateHandler: inform PCS Core that gate has finished opening.
+200416-21:56:25 [FINE] -- GateHandler: gate status change: GateOpening --> GateOpened
+200416-21:56:25 [FINE] -- PCSCore: message received: [GateHandler (GateOpenReply) -- ].
+200416-21:56:25 [INFO] -- PCSCore: Gate is opened.
+200416-21:56:25 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:25 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:25 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:25 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:25 [INFO] -- 46 35 
+200416-21:56:25 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 46 35 ].
+200416-21:56:25 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:26 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:26 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:26 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:26 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:26 [INFO] -- 47 34 
+200416-21:56:26 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 47 34 ].
+200416-21:56:26 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:27 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:27 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:27 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:27 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:27 [INFO] -- 48 33 
+200416-21:56:27 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 48 33 ].
+200416-21:56:27 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:27 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:27 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:27 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:27 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:27 [INFO] -- 49 32 
+200416-21:56:27 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 49 32 ].
+200416-21:56:27 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:27 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:27 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:27 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:27 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:27 [INFO] -- 50 31 
+200416-21:56:27 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 50 31 ].
+200416-21:56:27 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:28 [FINE] -- PCSCore: message received: [Timer (TimesUp) -- TimesUp 00001 0].
+200416-21:56:28 [INFO] -- ------------------------------------------------------------
+200416-21:56:28 [INFO] -- Poll: TimesUp 00001 0
+200416-21:56:28 [FINE] -- SensorHandler(Down)Lv0: message received: [PCSCore (Poll) -- ].
+200416-21:56:28 [FINE] -- SensorHandler(Up)Lv0: message received: [PCSCore (Poll) -- ].
+200416-21:56:28 [FINE] -- SensorHandler(Up)Lv1: message received: [PCSCore (Poll) -- ].
+200416-21:56:28 [FINE] -- GateHandler: message received: [PCSCore (Poll) -- ].
+200416-21:56:28 [FINE] -- VacancyDispHandler: message received: [PCSCore (Poll) -- ].
+200416-21:56:28 [FINE] -- SensorHandler(Down)Lv1: message received: [PCSCore (Poll) -- ].
+200416-21:56:28 [INFO] -- SensorHandler(Up)Lv1: poll request received.  Send poll request to hardware.
+200416-21:56:28 [INFO] -- SensorHandler(Up)Lv0: poll request received.  Send poll request to hardware.
+200416-21:56:28 [INFO] -- GateHandler: poll request received.  Send poll request to hardware.
+200416-21:56:28 [FINE] -- SensorHandler(Up)Lv1Emulator: Poll request received.  [autoPoll is off]
+200416-21:56:28 [INFO] -- VacancyDispHandler: poll request received.  Send poll request to hardware.
+200416-21:56:28 [INFO] -- SensorHandler(Down)Lv1: poll request received.  Send poll request to hardware.
+200416-21:56:28 [INFO] -- SensorHandler(Down)Lv0: poll request received.  Send poll request to hardware.
+200416-21:56:28 [FINE] -- SensorHandler(Down)Lv1Emulator: Poll request received.  [autoPoll is off]
+200416-21:56:28 [FINE] -- VacancyDispHandlerEmulator: Poll request received.  [autoPoll is on]
+200416-21:56:28 [FINE] -- GateHandlerEmulator: Poll request received.  [autoPoll is on]
+200416-21:56:28 [FINE] -- VacancyDispHandlerEmulator: Send poll ack.
+200416-21:56:28 [FINE] -- SensorHandler(Up)Lv0Emulator: Poll request received.  [autoPoll is off]
+200416-21:56:28 [FINE] -- GateHandlerEmulator: Send poll ack.
+200416-21:56:28 [FINE] -- SensorHandler(Down)Lv0Emulator: Poll request received.  [autoPoll is off]
+200416-21:56:28 [FINE] -- GateHandler: message received: [GateHandlerEmulator (PollAck) -- ].
+200416-21:56:28 [FINE] -- VacancyDispHandler: message received: [VacancyDispHandlerEmulator (PollAck) -- ].
+200416-21:56:28 [INFO] -- GateHandler: poll ack received.  Send poll ack to PCS Core.
+200416-21:56:28 [INFO] -- VacancyDispHandler: poll ack received.  Send poll ack to PCS Core.
+200416-21:56:28 [FINE] -- PCSCore: message received: [GateHandler (PollAck) -- GateHandler is up!].
+200416-21:56:28 [INFO] -- PollAck: GateHandler is up!
+200416-21:56:28 [FINE] -- PCSCore: message received: [VacancyDispHandler (PollAck) -- VacancyDispHandler is up!].
+200416-21:56:28 [INFO] -- PollAck: VacancyDispHandler is up!
+200416-21:56:28 [FINE] -- PCSCore: message received: [Timer (TimesUp) -- TimesUp 00002 0].
+200416-21:56:28 [INFO] -- ------------------------------------------------------------
+200416-21:56:28 [INFO] -- PCSCore: Close the gate now (for demo only!!!)
+200416-21:56:28 [FINE] -- GateHandler: message received: [PCSCore (GateCloseRequest) -- ].
+200416-21:56:28 [INFO] -- GateHandler: gate close request received
+200416-21:56:28 [INFO] -- GateHandler: send signal to close the gate now.
+200416-21:56:28 [FINE] -- GateHandlerEmulator: Gate close signal received.  [autoClose is on]
+200416-21:56:28 [FINE] -- GateHandlerEmulator: Gate close timer started.
+200416-21:56:28 [FINE] -- GateHandler: gate status change: GateOpened --> GateClosing
+200416-21:56:28 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:28 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:28 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:28 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:28 [INFO] -- 50 30 
+200416-21:56:28 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 50 30 ].
+200416-21:56:28 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:28 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:28 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:28 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:28 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:28 [INFO] -- 50 29 
+200416-21:56:28 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 50 29 ].
+200416-21:56:28 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:29 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:29 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:29 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:29 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:29 [INFO] -- 50 28 
+200416-21:56:29 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 50 28 ].
+200416-21:56:29 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:29 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:29 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:29 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:29 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:29 [INFO] -- 50 27 
+200416-21:56:29 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 50 27 ].
+200416-21:56:29 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:29 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:29 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:29 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:29 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:29 [INFO] -- 50 26 
+200416-21:56:29 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 50 26 ].
+200416-21:56:29 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:29 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:29 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:29 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:29 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:29 [INFO] -- 50 25 
+200416-21:56:29 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 50 25 ].
+200416-21:56:29 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:29 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:29 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:29 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:29 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:29 [INFO] -- 50 24 
+200416-21:56:29 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 50 24 ].
+200416-21:56:29 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:29 [FINE] -- GateHandler: message received: [Timer (TimesUp) -- TimesUp 00002 0].
+200416-21:56:29 [FINE] -- GateHandlerEmulator: Times up received.
+200416-21:56:29 [FINE] -- GateHandlerEmulator: Gate close timer is up.  [autoClose is on]
+200416-21:56:29 [FINE] -- GateHandlerEmulator: Send gate close reply
+200416-21:56:29 [FINE] -- GateHandler: message received: [GateHandlerEmulator (GateCloseReply) -- Gate Close Reply].
+200416-21:56:29 [INFO] -- GateHandler: gate close reply received
+200416-21:56:29 [INFO] -- GateHandler: inform PCS Core that gate has finished closing.
+200416-21:56:29 [FINE] -- GateHandler: gate status change: GateClosing --> GateClosed
+200416-21:56:29 [FINE] -- PCSCore: message received: [GateHandler (GateCloseReply) -- ].
+200416-21:56:29 [INFO] -- PCSCore: Gate is closed.
+200416-21:56:30 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:30 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:30 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:30 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:30 [INFO] -- 50 23 
+200416-21:56:30 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 50 23 ].
+200416-21:56:30 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:30 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:30 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:30 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:30 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:30 [INFO] -- 50 22 
+200416-21:56:30 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 50 22 ].
+200416-21:56:30 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:31 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:31 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:31 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:31 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:31 [INFO] -- 50 21 
+200416-21:56:31 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 50 21 ].
+200416-21:56:31 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:31 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:31 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:31 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:31 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:31 [INFO] -- 50 20 
+200416-21:56:31 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 50 20 ].
+200416-21:56:31 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:31 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:31 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:31 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:31 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:31 [INFO] -- 50 19 
+200416-21:56:31 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 50 19 ].
+200416-21:56:31 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:31 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:31 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:31 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:31 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:31 [INFO] -- 50 18 
+200416-21:56:31 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 50 18 ].
+200416-21:56:31 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:31 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:31 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:31 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:31 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:31 [INFO] -- 50 17 
+200416-21:56:31 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 50 17 ].
+200416-21:56:31 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:32 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:32 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:32 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:32 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:32 [INFO] -- 50 16 
+200416-21:56:32 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 50 16 ].
+200416-21:56:32 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:32 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:32 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:32 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:32 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:32 [INFO] -- 50 15 
+200416-21:56:32 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 50 15 ].
+200416-21:56:32 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:32 [FINE] -- SensorHandler(Up)Lv1: message received: [SensorHandler(Up)Lv1Emulator (SensorDetectedReply) -- ].
+200416-21:56:32 [INFO] -- SensorHandler(Up)Lv1: sensor detected reply received
+200416-21:56:32 [FINE] -- PCSCore: message received: [SensorHandler(Up)Lv1 (CarDrivingUpReply) -- 1].
+200416-21:56:32 [INFO] -- PCSCore:Sensor Detected from level 1, dir: Up
+200416-21:56:32 [INFO] -- 50 14 
+200416-21:56:32 [FINE] -- VacancyDispHandler: message received: [PCSCore (DisplayUpdateRequest) -- 50 14 ].
+200416-21:56:32 [INFO] -- VacancyDispHandler: send signal to vacancy display now.
+200416-21:56:33 [INFO] -- 
+200416-21:56:33 [INFO] -- 
+200416-21:56:33 [INFO] -- ============================================================
+200416-21:56:33 [INFO] -- PCSStarter: Application Stopping...
+200416-21:56:33 [INFO] -- timer: received terminate!
+200416-21:56:33 [FINE] -- SensorHandler(Down)Lv1: message received: [PCSStarter (Terminate) -- Terminate now!].
+200416-21:56:33 [FINE] -- PCSStarter: unregistering timer
+200416-21:56:33 [FINE] -- VacancyDispHandler: message received: [PCSStarter (Terminate) -- Terminate now!].
+200416-21:56:33 [FINE] -- PCSCore: message received: [PCSStarter (Terminate) -- Terminate now!].
+200416-21:56:33 [FINE] -- GateHandler: message received: [PCSStarter (Terminate) -- Terminate now!].
+200416-21:56:33 [INFO] -- timer: terminating...
+200416-21:56:33 [FINE] -- PCSStarter: unregistering GateHandler
+200416-21:56:33 [INFO] -- GateHandler: terminating...
+200416-21:56:33 [FINE] -- PCSStarter: unregistering VacancyDispHandler
+200416-21:56:33 [FINE] -- PCSStarter: unregistering SensorHandler(Down)Lv1
+200416-21:56:33 [INFO] -- VacancyDispHandler: terminating...
+200416-21:56:33 [FINE] -- PCSStarter: unregistering PCSCore
+200416-21:56:33 [INFO] -- SensorHandler(Down)Lv1: terminating...
+200416-21:56:33 [INFO] -- PCSCore: terminating...
